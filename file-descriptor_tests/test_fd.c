@@ -6,7 +6,7 @@
 /*   By: gomandam <gomandam@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/12 16:51:11 by gomandam          #+#    #+#             */
-/*   Updated: 2024/12/17 19:29:34 by gomandam         ###   ########.fr       */
+/*   Updated: 2025/08/06 23:50:05 by gomandam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ int main(void)
 	read_chars = NULL; //assign pointers to NULL after malloc
 	return (0);
 }
-
 /* Manual for:
 	open > int open(const char *pathname, int flags);
 	read > ssize_t read(int fd, void *buf, size_t count);
@@ -49,5 +48,4 @@ int main(void)
      	Static variables declared inside a function are local to that function,
 	but their value is retained between function calls.
 	Thus, static varaibles inside the function = DECLARE & INITIALIZE IN THE SAME LINE.
-
 */
